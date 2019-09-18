@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<RuleSet Name="All Rules Disabled" Description="All Rules are disabled." ToolsVersion="15.0">
+   <Include Path="AllRulesDisabled.ruleset" Action="Default"/>
+   <Rules AnalyzerId="Microsoft.NetCore.Analyzers" RuleNamespace="Microsoft.NetCore.Analyzers">
+      <Rule Id="CA5391" Action="Warning" />             <!-- Use antiforgery tokens in ASP.NET Core MVC controllers -->
+      <Rule Id="CA5395" Action="Warning" />             <!-- Miss HttpVerb attribute for action methods -->
+   </Rules>
+</RuleSet>
